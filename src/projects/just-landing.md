@@ -1,11 +1,13 @@
 ---
 title: JUST Landing Page
-tagline: 스타트업 동아리 JUST 2024년 랜딩 & 리크루팅 페이지
-period: 2024.01 — 2024.03
+tagline: 스타트업 동아리 JUST 2026년 랜딩 & 리크루팅 페이지
+period: 2024.01 — 2026.10
 role: Frontend / Design
 tags: [Flutter, Figma]
-status: was Released
+status: Releasing
 color: #111
+web: https://justartup.github.io/just-landing/
+github: https://github.com/JUSTARTUP/just-landing
 ---
 
 ## 개요
@@ -16,10 +18,10 @@ color: #111
 
 ## 시스템 구성
 
-| 영역 | 기술 |
-|---|---|
-| Front-end | Flutter |
-| Design | Figma |
+| 영역      | 기술  |
+| --------- | ----- |
+| Front-end | React |
+| Design    | Figma |
 
 <!--
 ## 프로젝트 회고

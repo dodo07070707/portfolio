@@ -22,10 +22,16 @@ export const MARQUEE = [
 ];
 
 // 홈 PROJECTS 섹션에 보여줄 프로젝트 4개 (src/projects/<slug>.md 의 slug)
-export const FEATURED = ["uoslife", "deplois", "afo", "recon"];
+export const FEATURED = ["uoslife", "just-landing", "afo", "recon"];
 
 // 전체 프로젝트 페이지의 태그 필터 버튼 (이 순서대로, All은 자동으로 맨 앞)
-export const FILTER_TAGS = ["React", "Flutter", "R", "Figma", "Chrome Extension"];
+export const FILTER_TAGS = [
+  "React",
+  "Flutter",
+  "R",
+  "Figma",
+  "Chrome Extension",
+];
 
 export const TOOLBOX = [
   {
@@ -61,7 +67,12 @@ export const ACTIVITIES = [
     b: "Front-End",
     href: "https://uoslife.team/",
   },
-  { yr: "’23 — ’25", t: "JUST — High School Start-up Club", b: "Leader" },
+  {
+    yr: "’23 — ’25",
+    t: "JUST — High School Start-up Club",
+    b: "Leader",
+    href: "https://justartup.github.io/just-landing/",
+  },
 ];
 
 export const EDUCATION = [
@@ -121,13 +132,23 @@ export const CAREER = [
         t: "National Creative Convergence Math Cert · Encouragement",
         b: "🏆",
       },
-      { yr: "2023", t: "KDMHS Creative IT Presentation · Bronze", b: "🥉", href: "https://dimigo-h.goeas.kr" },
+      {
+        yr: "2023",
+        t: "KDMHS Creative IT Presentation · Bronze",
+        b: "🥉",
+        href: "https://dimigo-h.goeas.kr",
+      },
       {
         yr: "2023",
         t: "Software & Future Dream Challenge · Final",
         b: "Final",
       },
-      { yr: "—", t: "Sunrin Gifted (S/W) — Outstanding Student", b: "Award", href: "https://sunrint.sen.hs.kr/" },
+      {
+        yr: "—",
+        t: "Sunrin Gifted (S/W) — Outstanding Student",
+        b: "Award",
+        href: "https://sunrint.sen.hs.kr/",
+      },
     ],
   },
   {

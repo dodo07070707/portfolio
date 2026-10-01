@@ -45,7 +45,7 @@ function Spec({ p }) {
   );
 }
 
-// frontmatter 링크(github/demo/store/doc)를 한 줄씩
+// frontmatter 링크(web/github/demo/store/doc)를 한 줄씩
 function Links({ p }) {
   const keys = Object.keys(LINK_LABELS).filter(k => p[k]);
   if (!keys.length) return null;

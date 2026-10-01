@@ -16,4 +16,4 @@ export const PROJECTS = Object.entries(files)
   // period 시작일 기준 최신순 ('2026.01 — ...' 형태라 문자열 비교로 충분)
   .sort((a, b) => b.period.localeCompare(a.period));
 
-export const LINK_LABELS = { github: 'GitHub', demo: 'Demo', store: 'Store', doc: 'Docs' };
+export const LINK_LABELS = { web: 'Website', github: 'GitHub', demo: 'Demo', store: 'Store', doc: 'Docs' };
